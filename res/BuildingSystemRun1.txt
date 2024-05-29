@@ -1,0 +1,480 @@
+Welcome to the Elevator System!
+This system will simulate the operation of an elevator system.
+The system will be initialized with the following parameters:
+Number of floors: 11
+Number of elevators: 8
+Number of people: 3
+The system will then be run and the results will be displayed.
+
+Started the system.
+
+Added two up requests 1->5, 2->4.
+
+Step the system forward 5 times.
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Running
+[1|^|C  ]< --  1  2 --  4  5 -- -- -- -- -->
+Waiting[Floor 0, Time 4]
+Waiting[Floor 0, Time 4]
+Waiting[Floor 0, Time 4]
+Waiting[Floor 0, Time 4]
+Waiting[Floor 0, Time 4]
+Waiting[Floor 0, Time 4]
+Waiting[Floor 0, Time 4]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Running
+[1|^|O 3]< -- --  2 --  4  5 -- -- -- -- -->
+Waiting[Floor 0, Time 3]
+Waiting[Floor 0, Time 3]
+Waiting[Floor 0, Time 3]
+Waiting[Floor 0, Time 3]
+Waiting[Floor 0, Time 3]
+Waiting[Floor 0, Time 3]
+Waiting[Floor 0, Time 3]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Running
+[1|^|O 2]< -- --  2 --  4  5 -- -- -- -- -->
+Waiting[Floor 0, Time 2]
+Waiting[Floor 0, Time 2]
+Waiting[Floor 0, Time 2]
+Waiting[Floor 0, Time 2]
+Waiting[Floor 0, Time 2]
+Waiting[Floor 0, Time 2]
+Waiting[Floor 0, Time 2]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Running
+[1|^|O 1]< -- --  2 --  4  5 -- -- -- -- -->
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+Waiting[Floor 0, Time 1]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Running
+[1|^|C  ]< -- --  2 --  4  5 -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Added two down requests: 6->3, 7->2, and an up request: 3->8.
+
+Step the system forward 20 times.
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[2|^|C  ]< -- --  2 --  4  5 -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[2|^|O 3]< -- -- -- --  4  5 -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[2|^|O 2]< -- -- -- --  4  5 -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[2|^|O 1]< -- -- -- --  4  5 -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[2|^|C  ]< -- -- -- --  4  5 -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[3|^|C  ]< -- -- -- --  4  5 -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[4|^|C  ]< -- -- -- --  4  5 -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[4|^|O 3]< -- -- -- -- --  5 -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[4|^|O 2]< -- -- -- -- --  5 -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[4|^|O 1]< -- -- -- -- --  5 -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: [6->3, 7->2]
+System Status: Running
+[4|^|C  ]< -- -- -- -- --  5 -- -- -- -- -->
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[5|^|C  ]< -- -- -- -- --  5 -- -- -- -- -->
+[9|v|C  ]< -- --  2  3 -- --  6  7 -- -- -->
+Waiting[Floor 10, Time 4]
+Waiting[Floor 10, Time 4]
+Waiting[Floor 10, Time 4]
+Waiting[Floor 10, Time 4]
+Waiting[Floor 10, Time 4]
+Waiting[Floor 10, Time 4]
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[5|^|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- --  2  3 -- --  6  7 -- -- -->
+Waiting[Floor 10, Time 3]
+Waiting[Floor 10, Time 3]
+Waiting[Floor 10, Time 3]
+Waiting[Floor 10, Time 3]
+Waiting[Floor 10, Time 3]
+Waiting[Floor 10, Time 3]
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[5|^|O 2]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- --  2  3 -- --  6  7 -- -- -->
+Waiting[Floor 10, Time 2]
+Waiting[Floor 10, Time 2]
+Waiting[Floor 10, Time 2]
+Waiting[Floor 10, Time 2]
+Waiting[Floor 10, Time 2]
+Waiting[Floor 10, Time 2]
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[5|^|O 1]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|O 3]< -- --  2  3 -- --  6 -- -- -- -->
+Waiting[Floor 10, Time 1]
+Waiting[Floor 10, Time 1]
+Waiting[Floor 10, Time 1]
+Waiting[Floor 10, Time 1]
+Waiting[Floor 10, Time 1]
+Waiting[Floor 10, Time 1]
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|O 2]< -- --  2  3 -- --  6 -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|O 1]< -- --  2  3 -- --  6 -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- --  2  3 -- --  6 -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- --  2  3 -- --  6 -- -- -- -->
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: [3->8]
+Down Requests: []
+System Status: Running
+[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|O 3]< -- --  2  3 -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Stopping the system.
+
+Step the system forward 10 times.
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|O 2]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|O 1]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Stopping
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[1|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Out Of Service
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+
+Requests waiting to be processed:
+Up Requests: []
+Down Requests: []
+System Status: Out Of Service
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+
+Simulation ended.
+
+Process finished with exit code 0
