@@ -1,6 +1,7 @@
 ### Overview
 This project is a simple implementation of an elevator system.
 It's able to take user requests, then distribute those requests to the elevator and demonstrate the behaviour of the elevator system.
+The executable is in the res folder.
 
 ### List of Features
 __Step the system by a number of steps you want__: The user can specify the number of steps to step the system by using the spinner to the left of the step button.
